@@ -1,0 +1,16 @@
+name: Shortcutter
+main: shortcut
+version: 0.1
+
+commands:
+   pcreate:
+      description: NPC create Command.
+      usage: /pcreate {name}
+      permission: shortcut.create
+      permission-message: You don't have the permission to do this
+
+   sudo:
+      description: Sudo
+      usage: /sudo {command}
+      permission: shortcut.sudo
+      permission-message: You don't have permissions to do that.
